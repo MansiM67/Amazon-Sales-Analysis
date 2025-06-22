@@ -142,7 +142,7 @@ All SQL analysis was conducted using **MySQL** to clean, transform, and extract 
 
 - **Email:** mansiln67@gmail.com
 - **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/yourprofile)  
-- **GitHub:** [Your GitHub](https://github.com/yourusername)  
+- **GitHub:** https://github.com/MansiM67
 - **Portfolio:** [Your Portfolio Website](https://yourportfolio.com)
 
 ---
