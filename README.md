@@ -43,23 +43,56 @@ Key data preparation steps:
 
 ---
 
-## 📊 SQL-Based Exploratory Analysis
+## 🧪 SQL-Based Exploratory Analysis
+
+All SQL analysis was conducted using **MySQL** to clean, transform, and extract insights from Amazon India’s order dataset.
+
+---
 
 ### ✅ Time-Based Trends
-- Monthly sales and revenue growth
-- Seasonal peaks (notably November–December)
+- Monthly sales and revenue growth using `DATE_FORMAT()` and `GROUP BY`
+- Identification of peak-performing months using `RANK()` and `SUM()`
+- Running total of monthly sales using window functions
+
+---
 
 ### ✅ Product Analysis
-- Revenue by product category and size
-- Identification of most returned/cancelled categories
+- Revenue contribution by product category (`category`)
+- Quantity sold by category and size (`GROUP BY category, size`)
+- Most popular size per category using `ROW_NUMBER()`
+- Categories with high cancellation/return rates
+- Cancellation percentage using `CASE WHEN` and `ROUND()`
+
+---
 
 ### ✅ Fulfillment & Shipping
-- Revenue comparison: FBA vs FBM
-- Order status patterns by fulfillment type
+- Revenue and order count comparison between FBA and FBM
+- Return and cancellation pattern by fulfillment method
+- Analysis of `status_` against `fulfillment` type
+
+---
+
+### ✅ Customer Behavior
+- Top 10 highest-spending customers by `SUM(amount)`
+- Average order value (AOV) per state
+- Customer ranking by frequency and revenue using `RANK()` and `COUNT(DISTINCT order_id)`
+- Classification of orders into High, Medium, Low tiers by amount
+
+---
 
 ### ✅ Regional Insights
-- State-wise total sales
-- Top 10 revenue-generating cities
+- State-wise and city-wise revenue distribution
+- Top-performing regions in terms of total sales
+- Underperforming regions with low revenue
+- Detection of month-over-month revenue drops by state using `LAG()`
+
+---
+
+### ✅ Operational & Strategic Metrics
+- Sales breakdown by sales channel (Online vs Retail)
+- Cancellations segmented by state and category
+- Top 3 selling categories per state using window functions
+
 
 ---
 
