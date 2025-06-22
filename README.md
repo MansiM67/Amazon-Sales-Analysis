@@ -116,6 +116,9 @@ All SQL analysis was conducted using **MySQL** to clean, transform, and extract 
 - 🎛️ Slicers: Year, Category, Fulfillment, Status, Region
 
 > Dashboard file: `Amazon_Sales Dashboard.pbix`
+## 🖼️ Dashboard Preview
+
+![Amazon Sales Dashboard Preview](Screenshots/amazon_dashboard.png)
 
 ---
 
