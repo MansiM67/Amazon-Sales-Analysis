@@ -142,9 +142,10 @@ All SQL analysis was conducted using **MySQL** to clean, transform, and extract 
 ## 📬 Contact
 
 - **Email:** mansiln67@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/mansi-mittal-286493202?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BA8ldT6BzSSC6%2B%2F2WeZlwig%3D%3D 
+- **LinkedIn:** www.linkedin.com/in/MansiMittal98
+ 
 - **GitHub:** https://github.com/MansiM67
-- **Portfolio:** [Your Portfolio Website](https://yourportfolio.com)
+  
 
 ---
 
