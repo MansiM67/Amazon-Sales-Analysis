@@ -118,7 +118,7 @@ All SQL analysis was conducted using **MySQL** to clean, transform, and extract 
 > Dashboard file: `Amazon_Sales Dashboard.pbix`
 ## 🖼️ Dashboard Preview
 
-![Amazon Sales Dashboard Preview](Screenshots/amazon_dashboard.png)
+![Amazon Sales Dashboard Preview]("C:\Users\ASUS\OneDrive\Pictures\Screenshots\amazon_dashboard.png")
 
 ---
 
